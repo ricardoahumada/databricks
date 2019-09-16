@@ -1,0 +1,5 @@
+virtualenv -p /usr/bin/python2.7 databrickscli
+
+source databrickscli/bin/activate
+
+pip install pip install azure-eventhub
