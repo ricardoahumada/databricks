@@ -2,7 +2,7 @@
 # Read Configuration
 readConfig = {
   "Endpoint" : "https://doctorwho.documents.azure.com:443/",
-  "Masterkey" : "<key>",
+  "Masterkey" : "SPSVkSfA7f6vMgMvnYdzc1MaWb65v4VQNcI2Tp1WfSP2vtgmAwGXEPcxoYra5QBHHyjDGYuHKSkguHIz1vvmWQ==",
   "Database" : "DepartureDelays",
   "preferredRegions" : "Central US;East US2",
   "Collection" : "flights_pcoll",
@@ -24,7 +24,7 @@ flights.count()
 # Write configuration
 writeConfig = {
     "Endpoint": "https://data-cosmos-db.documents.azure.com:443/",
-    "Masterkey": "<key>",
+    "Masterkey": "oo0NqZALO5WhmMLaoyBzvOziZTU8R01hWqZWjWPYkkPhJatC9YbPHxFprFpLZp2MtItaLttL4ZgkJHZWXnAs8A==",
     "Database": "DepartureDelays",
     "Collection": "flights",
     "Upsert": "true"
@@ -38,7 +38,7 @@ flights.write.format("com.microsoft.azure.cosmosdb.spark").options(**writeConfig
 # Read Configuration
 readConfig = {
   "Endpoint": "https://data-cosmos-db.documents.azure.com:443/",
-  "Masterkey": "<key>",
+  "Masterkey": "oo0NqZALO5WhmMLaoyBzvOziZTU8R01hWqZWjWPYkkPhJatC9YbPHxFprFpLZp2MtItaLttL4ZgkJHZWXnAs8A==",
   "Database": "DepartureDelays",
   "Collection": "flights",
   "SamplingRatio" : "1.0",

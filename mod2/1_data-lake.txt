@@ -1,0 +1,18 @@
+# Source: https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-use-databricks-spark
+1. Create an Azure Data Lake Storage Gen2 account: https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-quickstart-create-account
+2. Install AzCopy
+3. Create Azure AD application: https://docs.microsoft.com/es-es/azure/active-directory/develop/howto-create-service-principal-portal
+	- Storage Blob Data Contributor 
+	- Get values for signing in
+		#tenant id
+		9452b23e-fd00-40c5-98f7-d9a67ab13a7e
+		#client id
+		6987cd8a-481d-46ac-bd87-a0b1f13fffa2
+		#secret
+		j=Y9:u_+oOxP50sYq4?MQF*3Tnj35qCM
+4. azcopy login --tenant-id=<tenant_id>
+5. azcopy cp "<csv-folder-path>" https://<storage-account-name>.dfs.core.windows.net/<container-name>/folder1/On_Time.csv
+	azcopy.exe copy "D:\Shared\Dropbox\0.ProyectosEmpresariales\enMotionValue\BIT\Databricks\Practicas\mod2\1_titanic3.xls" "https://databrickssadl.dfs.core.windows.net/databricks/data/1_titanic3.xls" --overwrite=false --follow-symlinks --recursive --from-to=LocalBlobFS --put-md5
+ 6. Instead use Storage exporer
+
+DefaultEndpointsProtocol=https;AccountName=databrickssadl;AccountKey=4Bic7lIrGeD+jYxF1R7jW2ObcBlepRzOn9yAy+dl2WLDgyUZ61x34ft0X0ve3LMK/L6myzfsSsg0MZamTtMXag==;EndpointSuffix=core.windows.net

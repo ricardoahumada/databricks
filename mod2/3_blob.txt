@@ -1,0 +1,5 @@
+1. create storage account and inside blob storage
+2. upload json
+3. connect 
+	- https://databricksstoragerit.blob.core.windows.net/databricks-blob
+	- https://github.com/yokawasa/databricks-notebooks/blob/master/notebooks/elt-blob-storage-cosmosdb-python.ipynb

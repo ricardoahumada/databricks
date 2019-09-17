@@ -1,0 +1,4 @@
+# https://docs.azuredatabricks.net/spark/latest/structured-streaming/streaming-event-hubs.html
+# https://techblog.fexcofts.com/2019/01/18/real-time-stream-processing-with-databricks-and-azure-event-hubs/
+# https://docs.microsoft.com/bs-latn-ba/azure/event-hubs/event-hubs-python-get-started-send
+# https://datadoor.co.uk/2019/03/12/azure-event-hubs-with-python/

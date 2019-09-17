@@ -1,0 +1,8 @@
+# https://docs.databricks.com/spark/latest/data-sources/sql-databases.html
+#
+1. check drivers
+2. install drivers
+3. create azure database for mysql -> disable ssl --> add any address
+4. create database titanic
+5. load sql
+6. connect and read: https://docs.databricks.com/spark/latest/data-sources/sql-databases.html

@@ -1,0 +1,9 @@
+# https://docs.azuredatabricks.net/spark/latest/data-sources/azure/cosmosdb-connector.html
+# https://docs.microsoft.com/en-us/azure/cosmos-db/spark-connector
+1. Download library
+2. Install library: https://docs.azuredatabricks.net/user-guide/libraries.html#install-libraries
+	- Create library
+	- Uploaded to dbfs:/FileStore/jars
+	- Install to cluster
+3. Create DB Cosmos
+4. Create collection

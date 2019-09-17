@@ -1,0 +1,1 @@
+# https://docs.azuredatabricks.net/delta/intro-notebooks.html#delta-quickstart-python

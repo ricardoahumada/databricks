@@ -1,0 +1,6 @@
+# https://docs.microsoft.com/en-us/azure/azure-databricks/databricks-stream-from-eventhubs
+1. Create twitter app: https://developer.twitter.com/en/apps
+2. Attach Apache Spark Event Hubs connector to databricks:
+	- go to cluster .> add library maven:
+		Spark Event Hubs connector - com.microsoft.azure:azure-eventhubs-spark_2.11:2.3.10
+		Twitter API - org.twitter4j:twitter4j-core:4.0.7
